@@ -48,3 +48,35 @@ console.log(setOfCompanies)
 let companies2 =  new Set(['Google','Microsoft','Facebook','Twitter','Amazon','Alibaba ','Github'])
 console.log(companies2.delete('Google'))
 console.log(companies2)
+
+// checking an element in a set 
+console.log(companies2.has('Google'))
+console.log(companies2.has('Facebook'))
+
+// map : 
+const map = new Map() 
+console.log(map.size)
+
+// creating a map from an array 
+countries =  [
+    ['Finland', 'Helsinki'],
+    ['Sweden', 'Stockholm'],
+    ['Norway', 'Oslo'],
+  ]
+
+const countriesMap = new Map (countries)
+console.log(countriesMap)
+console.log(countriesMap.size)
+
+// getting a value from the map 
+console.log(countriesMap.get('Sweden'))
+
+// getting all values from the map using loop 
+for(const loop of countriesMap){
+    console.log(loop)
+}
+
+
+
+
+
